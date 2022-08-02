@@ -1,0 +1,17 @@
+@import 'base/colors';
+
+
+body {
+	background: $main-color;
+	color: white;
+	margin: 0;
+	padding-top: 53px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/video';
+@import 'blocks/features';
